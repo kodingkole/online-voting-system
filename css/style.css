@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+}
+
+.top {
+  background: #4267B2;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.top button {
+  background: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.content{
+text-align: center;text-align: center;
+}
+.home-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.home-card{
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+
+.container {
+    
+  
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+button.primary {
+  background: #4267B2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button.danger {
+  background: #d9534f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button.success {
+  background: #5cb85c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.vote-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.vote-card {
+  flex: 1 1 calc(50% - 20px);
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 10px;
+}
+/* ------------------ Admin Dashboard Style ------------------ */
+.admin-container{
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.admin-container h2{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.admin-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.admin-buttons button{
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  background: #1877f2;
+  color: white;
+  transition: 0.3s;
+}
+
+.admin-buttons button:hover{
+  background: #145db8;
+  transform: translateY(-2px);
+}
